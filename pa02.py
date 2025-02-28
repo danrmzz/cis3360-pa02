@@ -64,6 +64,9 @@ def calculate_checksum(content, checksum_size):
 
 
 def main():
+    
+    print()
+    
     # Some error handling
     if len(sys.argv) != 3:
         print("error")
